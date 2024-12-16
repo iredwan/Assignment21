@@ -1,4 +1,4 @@
-import  {TokenDecode}  from "../utility/TokenHelper.js";
+import  {TokenDecode}  from "../utility/tokenUtility.js";
 
 const AuthMiddleware = (req, res, next) => {
     let token = req.headers['token'] || req.cookies['token'];
